@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.nav-box{
+    height: 80px;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    justify-content: space-between;
+    padding-right: 8rem;
+}
+.my_shop{
+    font-size: 32px;
+    cursor: pointer;
+    font-family: cursive;
+    color: #fff;
+    font-weight: 600;
+}
+.cart{
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+}
+.cart span:nth-child(2) {
+    position: relative;
+    top: -15px;
+}

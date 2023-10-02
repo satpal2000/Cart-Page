@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+   width: 80%;
+   margin: auto;
+   margin-top: 2%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto;
+}
+.Cards{
+    width: 220px;
+}
+.cart-button{
+    height: 35px;
+    width: 60%;
+    border-radius: 5rem;
+    background-color: blanchedalmond;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
